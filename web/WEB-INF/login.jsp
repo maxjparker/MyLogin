@@ -13,12 +13,13 @@
     </head>
     <body>
         <h1>Friendly Login Screen</h1>
+        
+        <div>Message: ${loginMsg}</div>
+        <h3>Login -</h3>
         <form method="POST">
             Username: <input type="text" name="username"><br>
             Password: <input type="password" name="password"><br>
             <input type="submit" value="Submit" name="btnSubmit">
         </form>
-        Console:
-        <textarea readonly>${message}</textarea>
     </body>
 </html>
